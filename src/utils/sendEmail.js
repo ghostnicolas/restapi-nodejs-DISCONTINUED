@@ -1,6 +1,6 @@
 const nodemailer = require('nodemailer');
 
-createTransport = () => {
+ createTransport = () => {
     const transporter = nodemailer.createTransport({
         host: process.env.HOST,
         port: 465,
@@ -16,7 +16,7 @@ createTransport = () => {
     return transporter;
 };
 
-sendEmail = async() => {
+ sendEmail = async() => {
     try {
     const transporter = createTransport();
         const email = await transporter.sendEmail({
