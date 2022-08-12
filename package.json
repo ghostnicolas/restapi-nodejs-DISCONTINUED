@@ -1,0 +1,13 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "Registration API with automatic email sending using nodemailer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Nicolas",
+  "license": "ISC"
+}
