@@ -2,7 +2,7 @@
 
 <p>Registration API with automatic email sending using nodemailer.</p>
 
-- [ ] Routes
+- [x] Routes
 - [x] Database
 - [ ] Controllers
 - [ ] Login
